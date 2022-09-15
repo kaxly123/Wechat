@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.MeFragment">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#B8B8B8">
+        <RelativeLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+            <ImageView android:layout_width="100dp" android:layout_height="100dp"
+                       android:src="@drawable/portrait" android:layout_margin="10dp" android:id="@+id/iv1"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="lmm" android:layout_alignTop="@id/iv1" android:layout_toRightOf="@id/iv1"
+                      android:textSize="35sp" android:id="@+id/tv1" android:layout_marginTop="5dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+                      android:text="微信号:123456" android:layout_alignBottom="@id/iv1"
+                      android:layout_toRightOf="@id/iv1" android:layout_marginBottom="5dp"
+                      android:layout_below="@+id/tv1" android:textSize="20sp" android:layout_marginTop="15dp"
+                      android:id="@+id/tv2" android:gravity="bottom"/>
+            <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                       android:src="@drawable/code" android:id="@+id/iv2"
+                       android:layout_alignParentRight="true" android:layout_marginTop="10dp"
+                       android:layout_marginStart="10dp" android:layout_marginEnd="10dp"
+                       android:layout_marginBottom="10dp" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_marginBottom="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/service" android:layout_margin="10dp" android:id="@+id/iv3"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="服务" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv3"/>
+        </LinearLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+        >
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/collection" android:layout_margin="10dp" android:id="@+id/iv4"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="收藏" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv4"/>
+        </LinearLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+        >
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/moments" android:layout_margin="10dp" android:id="@+id/iv5"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="朋友圈" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv5"/>
+        </LinearLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+        >
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/card" android:layout_margin="10dp" android:id="@+id/iv6"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="卡包" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv6"/>
+        </LinearLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_marginBottom="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/emoji" android:layout_margin="10dp" android:id="@+id/iv7"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="表情" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv7" />
+        </LinearLayout>
+        <LinearLayout android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content"
+        >
+            <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                       android:src="@drawable/setup" android:layout_margin="10dp" android:id="@+id/iv8"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="设置" android:textSize="20sp" android:gravity="center"
+                      android:id="@+id/tv8"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
